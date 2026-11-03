@@ -23,18 +23,14 @@ const languageStore = useLanguageStore()
         />
       </div>
 
-      <div class="projects__others">
-        <h3 class="projects__others-title">{{ languageStore.texts.projects.othersTitle }}</h3>
-        <ul class="projects__others-list">
-          <li
-            v-for="other in languageStore.texts.projects.others"
-            :key="other"
-            class="projects__other"
-          >
-            {{ other }}
-          </li>
-        </ul>
-      </div>
+      <a
+        href="https://github.com/AndreaVaGo?tab=repositories"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="projects__more"
+      >
+        {{ languageStore.texts.projects.othersTitle }} ↗
+      </a>
     </div>
   </section>
 </template>
@@ -76,33 +72,27 @@ const languageStore = useLanguageStore()
   margin-top: 40px;
 }
 
-.projects__others {
+/* Link to all repositories */
+.projects__more {
+  display: inline-flex;
+  align-items: center;
+  min-height: 52px;
   margin-top: 48px;
-}
-
-.projects__others-title {
-  margin: 0 0 14px;
-  font-size: 14px;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.projects__others-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.projects__other {
-  padding: 8px 14px;
-  border: 1px solid var(--color-border);
+  padding: 0 26px;
+  border: 2px solid var(--color-ink);
   border-radius: var(--radius-pill);
-  font-size: 14px;
-  font-weight: 600;
+  font-weight: 800;
+  text-decoration: none;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.projects__more:hover {
+  background-color: var(--color-ink);
+  color: var(--color-on-dark);
+  transform: translateY(-3px);
 }
 
 /* Tablets: two cards per row */

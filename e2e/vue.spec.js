@@ -23,3 +23,12 @@ test('scrolls to the about section from the menu', async ({ page }) => {
   await expect(page.getByRole('heading', { level: 2, name: /Mi billete/ })).toBeInViewport()
   await expect(page.getByRole('article', { name: 'Mi billete de metro' })).toBeVisible()
 })
+
+test('takes you to the journey map from the hero button', async ({ page }) => {
+  await page.goto('/')
+
+  await page.getByRole('link', { name: 'Subir al tren' }).click()
+
+  await expect(page.getByRole('heading', { level: 2, name: 'Plano del bootcamp' })).toBeInViewport()
+  await expect(page.getByRole('heading', { level: 3, name: 'Línea Backend' })).toBeVisible()
+})

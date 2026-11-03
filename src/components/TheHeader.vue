@@ -16,7 +16,7 @@ const links = [
   <header class="header">
     <a href="#" class="header__logo">
       <span class="header__badge">AV</span>
-      Andrea Vallina
+      Andrea Vallina González
     </a>
 
     <nav class="header__nav" :aria-label="languageStore.texts.nav.label">

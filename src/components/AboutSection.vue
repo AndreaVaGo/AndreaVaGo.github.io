@@ -1,8 +1,10 @@
 <script setup>
 import MetroTicket from '@/components/MetroTicket.vue'
+import { useInView } from '@/composables/useInView'
 import { useLanguageStore } from '@/stores/language'
 
 const languageStore = useLanguageStore()
+const { target, isVisible } = useInView()
 </script>
 
 <template>
@@ -20,12 +22,12 @@ const languageStore = useLanguageStore()
         <p class="about__paragraph">{{ languageStore.texts.about.paragraph2 }}</p>
       </div>
 
-      <div class="about__visual">
+      <div ref="target" class="about__visual">
         <div class="about__machine" aria-hidden="true">
           <span class="about__slot"></span>
         </div>
 
-        <MetroTicket />
+        <MetroTicket :inserted="isVisible" />
       </div>
     </div>
   </section>

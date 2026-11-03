@@ -36,10 +36,6 @@ const links = [
         >
           {{ link.label }}
         </a>
-
-        <a href="/cv-andrea-vallina-gonzalez.pdf" download class="contact__button">
-          {{ languageStore.texts.contact.cv }}
-        </a>
       </div>
 
       <footer class="contact__footer">

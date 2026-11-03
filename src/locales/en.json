@@ -66,5 +66,65 @@
         ]
       }
     ]
+  },
+  "projects": {
+    "eyebrow": "Projects",
+    "title": "Featured stops",
+    "othersTitle": "Other stops",
+    "featured": [
+      {
+        "name": "Acompáñame",
+        "line": "back",
+        "lineLabel": "Backend line · Final",
+        "image": "/images/projects/acompaname.png",
+        "imageAlt": "Screenshot of the Acompáñame app",
+        "badges": [{ "type": "wip", "label": "Under construction" }],
+        "description": "My final project: a marketplace to find caregivers who can stay with your loved ones, at the hospital or at home.",
+        "stack": ["Java 21", "Spring Boot", "Spring Security", "Vue", "MySQL", "Docker"],
+        "links": [
+          { "label": "Backend code", "url": "https://github.com/AndreaVaGo/acompaname-backend" },
+          { "label": "Frontend code", "url": "https://github.com/AndreaVaGo/acompaname-frontend" }
+        ]
+      },
+      {
+        "name": "Goxu",
+        "line": "back",
+        "lineLabel": "Backend line",
+        "image": "/images/projects/goxu.png",
+        "imageAlt": "Screenshot of the Goxu restaurant app",
+        "badges": [{ "type": "team", "label": "Team project" }],
+        "description": "Restaurant app built as a team. My part: the admin and user dashboards, the product detail page and a simulated card payment.",
+        "stack": ["Spring Boot", "Vue", "MySQL"],
+        "links": [
+          { "label": "Backend code", "url": "https://github.com/AndreaVaGo/goxu-backend" },
+          { "label": "Frontend code", "url": "https://github.com/AndreaVaGo/goxu-frontend" }
+        ]
+      },
+      {
+        "name": "The Univers of Things",
+        "line": "front",
+        "lineLabel": "Frontend line",
+        "image": "/images/projects/the-univers-of-things.png",
+        "imageAlt": "Screenshot of The Univers of Things website",
+        "badges": [
+          { "type": "live", "label": "Live" },
+          { "type": "team", "label": "Team project" }
+        ],
+        "description": "Single page app built as a team with Vue, published on GitHub Pages.",
+        "stack": ["Vue", "Pinia", "Vite"],
+        "links": [
+          { "label": "Visit site", "url": "https://andreavago.github.io/the-univers-of-things/" },
+          { "label": "Code", "url": "https://github.com/AndreaVaGo/the-univers-of-things" }
+        ]
+      }
+    ],
+    "others": [
+      "DuckStore",
+      "Movies REST API",
+      "Inside Out · My Diary",
+      "Kata RPG",
+      "House Builder",
+      "Any Company Global"
+    ]
   }
 }

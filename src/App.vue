@@ -4,6 +4,7 @@ import HeroSection from '@/components/HeroSection.vue'
 import MetroTrack from '@/components/MetroTrack.vue'
 import AboutSection from '@/components/AboutSection.vue'
 import JourneySection from '@/components/JourneySection.vue'
+import ProjectsSection from '@/components/ProjectsSection.vue'
 </script>
 
 <template>
@@ -19,6 +20,7 @@ import JourneySection from '@/components/JourneySection.vue'
 
     <AboutSection />
     <JourneySection />
+    <ProjectsSection />
   </main>
 </template>
 

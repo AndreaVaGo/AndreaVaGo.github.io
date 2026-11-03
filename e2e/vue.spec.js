@@ -32,3 +32,15 @@ test('takes you to the journey map from the hero button', async ({ page }) => {
   await expect(page.getByRole('heading', { level: 2, name: 'Plano del bootcamp' })).toBeInViewport()
   await expect(page.getByRole('heading', { level: 3, name: 'Línea Backend' })).toBeVisible()
 })
+
+test('shows the featured projects from the menu', async ({ page }) => {
+  await page.goto('/')
+
+  await page.getByRole('link', { name: 'Proyectos' }).click()
+
+  await expect(page.getByRole('heading', { level: 2, name: 'Paradas destacadas' })).toBeInViewport()
+  await expect(page.getByRole('heading', { level: 3, name: 'Acompáñame' })).toBeVisible()
+  await expect(
+    page.getByRole('img', { name: 'Captura de pantalla de la app Acompáñame' }),
+  ).toBeVisible()
+})

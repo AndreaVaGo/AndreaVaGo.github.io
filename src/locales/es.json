@@ -32,5 +32,39 @@
       { "label": "Validez", "value": "Solo ida, sin vuelta" },
       { "label": "Pasajera", "value": "Andrea Vallina González" }
     ]
+  },
+  "journey": {
+    "eyebrow": "Mi viaje",
+    "title": "Plano del bootcamp",
+    "intro": "Cada estación, algo que aprendí. Cada proyecto, una parada.",
+    "transfer": "Transbordo",
+    "finalLabel": "Final de trayecto",
+    "lines": [
+      {
+        "id": "front",
+        "name": "Línea Frontend",
+        "stations": [
+          { "name": "HTML y CSS" },
+          { "name": "JavaScript", "project": "DuckStore" },
+          { "name": "Vue y Pinia", "project": "The Univers of Things" }
+        ]
+      },
+      {
+        "id": "data",
+        "name": "Línea Datos",
+        "stations": [{ "name": "SQL y BBDD" }, { "name": "Docker" }]
+      },
+      {
+        "id": "back",
+        "name": "Línea Backend",
+        "stations": [
+          { "name": "Java 21" },
+          { "name": "TDD · JUnit 5", "project": "Kata RPG" },
+          { "name": "Spring Boot", "project": "Goxu" },
+          { "name": "Spring Security" },
+          { "name": "Acompáñame", "final": true }
+        ]
+      }
+    ]
   }
 }

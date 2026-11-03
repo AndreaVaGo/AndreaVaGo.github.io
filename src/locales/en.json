@@ -32,5 +32,39 @@
       { "label": "Validity", "value": "One way, no return" },
       { "label": "Passenger", "value": "Andrea Vallina González" }
     ]
+  },
+  "journey": {
+    "eyebrow": "My journey",
+    "title": "Bootcamp map",
+    "intro": "Every station, something I learned. Every project, a stop.",
+    "transfer": "Transfer",
+    "finalLabel": "End of the line",
+    "lines": [
+      {
+        "id": "front",
+        "name": "Frontend line",
+        "stations": [
+          { "name": "HTML & CSS" },
+          { "name": "JavaScript", "project": "DuckStore" },
+          { "name": "Vue & Pinia", "project": "The Univers of Things" }
+        ]
+      },
+      {
+        "id": "data",
+        "name": "Data line",
+        "stations": [{ "name": "SQL & databases" }, { "name": "Docker" }]
+      },
+      {
+        "id": "back",
+        "name": "Backend line",
+        "stations": [
+          { "name": "Java 21" },
+          { "name": "TDD · JUnit 5", "project": "Kata RPG" },
+          { "name": "Spring Boot", "project": "Goxu" },
+          { "name": "Spring Security" },
+          { "name": "Acompáñame", "final": true }
+        ]
+      }
+    ]
   }
 }

@@ -4,6 +4,8 @@ import { useLanguageStore } from '@/stores/language'
 const languageStore = useLanguageStore()
 const year = new Date().getFullYear()
 
+const email = 'TU-EMAIL@ejemplo.com'
+
 const links = [
   {
     label: 'LinkedIn',
@@ -11,7 +13,11 @@ const links = [
     external: true,
   },
   { label: 'GitHub', url: 'https://github.com/AndreaVaGo', external: true },
-  { label: 'Email', url: 'mailto:TU-EMAIL@ejemplo.com', external: false },
+  {
+    label: email,
+    url: `mailto:${email}?subject=Contacto%20desde%20tu%20portafolio`,
+    external: false,
+  },
 ]
 </script>
 
@@ -113,6 +119,7 @@ const links = [
   color: var(--color-on-dark);
   font-weight: 800;
   text-decoration: none;
+  overflow-wrap: anywhere;
   transition: transform 0.2s ease;
 }
 

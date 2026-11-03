@@ -1,9 +1,24 @@
+<script setup>
+import LanguageSwitch from '@/components/LanguageSwitch.vue'
+import { useLanguageStore } from '@/stores/language'
+
+const languageStore = useLanguageStore()
+</script>
+
 <template>
-  <main class="app">
-    <p class="app__label">Estación · Station</p>
-    <h1 class="app__title">Andrea Vallina</h1>
-    <p class="app__subtitle">Full Stack Developer · Portfolio en obras 🚧</p>
-  </main>
+  <div class="app">
+    <header class="app__header">
+      <LanguageSwitch />
+    </header>
+
+    <main>
+      <p class="app__label">{{ languageStore.texts.home.label }}</p>
+      <h1 class="app__title">Andrea Vallina</h1>
+      <p class="app__subtitle">
+        {{ languageStore.texts.home.role }} · {{ languageStore.texts.home.status }}
+      </p>
+    </main>
+  </div>
 </template>
 
 <style scoped>
@@ -11,6 +26,12 @@
   max-width: var(--max-width);
   margin: 0 auto;
   padding: var(--page-padding);
+}
+
+.app__header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 48px;
 }
 
 .app__label {

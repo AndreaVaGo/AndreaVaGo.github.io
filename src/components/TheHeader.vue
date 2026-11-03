@@ -76,6 +76,10 @@ const links = [
 }
 
 @media (max-width: 768px) {
+  .header {
+    justify-content: space-between;
+  }
+
   .header__nav {
     order: 3;
     flex-basis: 100%;

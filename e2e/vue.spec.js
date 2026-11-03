@@ -44,3 +44,15 @@ test('shows the featured projects from the menu', async ({ page }) => {
     page.getByRole('img', { name: 'Captura de pantalla de la app Acompáñame' }),
   ).toBeVisible()
 })
+
+test('shows the contact links from the menu', async ({ page }) => {
+  await page.goto('/')
+
+  await page.getByRole('link', { name: 'Contacto' }).click()
+
+  await expect(page.getByRole('heading', { level: 2, name: /Tu empresa/ })).toBeInViewport()
+  await expect(page.getByRole('link', { name: 'LinkedIn' })).toHaveAttribute(
+    'href',
+    'https://www.linkedin.com/in/andrea-vallina-gonzalez/',
+  )
+})

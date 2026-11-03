@@ -5,6 +5,7 @@ import MetroTrack from '@/components/MetroTrack.vue'
 import AboutSection from '@/components/AboutSection.vue'
 import JourneySection from '@/components/JourneySection.vue'
 import ProjectsSection from '@/components/ProjectsSection.vue'
+import ContactSection from '@/components/ContactSection.vue'
 </script>
 
 <template>
@@ -21,6 +22,7 @@ import ProjectsSection from '@/components/ProjectsSection.vue'
     <AboutSection />
     <JourneySection />
     <ProjectsSection />
+    <ContactSection />
   </main>
 </template>
 

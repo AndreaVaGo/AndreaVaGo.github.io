@@ -126,5 +126,15 @@
       "House Builder",
       "Any Company Global"
     ]
+  },
+  "contact": {
+    "badge": "Próxima estación",
+    "title": "Tu empresa",
+    "intro": "Busco mi primera oportunidad como desarrolladora full stack. ¿Hablamos?",
+    "cv": "Descargar CV"
+  },
+  "footer": {
+    "tests": "Este portafolio pasa 37 tests",
+    "madeWith": "Hecho con Vue, Pinia y mucho CSS"
   }
 }

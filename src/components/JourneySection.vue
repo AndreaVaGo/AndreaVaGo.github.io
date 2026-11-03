@@ -1,8 +1,10 @@
 <script setup>
 import MetroLine from '@/components/MetroLine.vue'
+import { useInView } from '@/composables/useInView'
 import { useLanguageStore } from '@/stores/language'
 
 const languageStore = useLanguageStore()
+const { target, isVisible } = useInView({ threshold: 0.2 })
 </script>
 
 <template>
@@ -14,13 +16,13 @@ const languageStore = useLanguageStore()
         <p class="journey__intro">{{ languageStore.texts.journey.intro }}</p>
       </header>
 
-      <div class="journey__map">
+      <div ref="target" class="journey__map">
         <template v-for="(line, index) in languageStore.texts.journey.lines" :key="line.id">
           <p v-if="index > 0" class="journey__transfer">
             ⇅ {{ languageStore.texts.journey.transfer }}
           </p>
 
-          <MetroLine :line="line" />
+          <MetroLine :line="line" :line-index="index" :active="isVisible" />
         </template>
       </div>
     </div>

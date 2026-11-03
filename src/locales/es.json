@@ -66,5 +66,59 @@
         ]
       }
     ]
+  },
+  "projects": {
+    "eyebrow": "Proyectos",
+    "title": "Paradas destacadas",
+    "othersTitle": "Otras paradas",
+    "featured": [
+      {
+        "name": "Acompáñame",
+        "line": "back",
+        "lineLabel": "Línea Backend · Final",
+        "status": "wip",
+        "statusLabel": "En obras",
+        "description": "Mi proyecto final: un marketplace para encontrar personal cuidador que acompañe a familiares, en el hospital o en casa.",
+        "stack": ["Java 21", "Spring Boot", "Spring Security", "Vue", "MySQL", "Docker"],
+        "links": [
+          { "label": "Código backend", "url": "https://github.com/AndreaVaGo/acompaname-backend" },
+          { "label": "Código frontend", "url": "https://github.com/AndreaVaGo/acompaname-frontend" }
+        ]
+      },
+      {
+        "name": "Goxu",
+        "line": "back",
+        "lineLabel": "Línea Backend",
+        "status": "team",
+        "statusLabel": "En equipo",
+        "description": "App de restaurante hecha en equipo. Mi parte: los paneles de administración y de usuario, el detalle de producto y un pago simulado con tarjeta.",
+        "stack": ["Spring Boot", "Vue", "MySQL"],
+        "links": [
+          { "label": "Código backend", "url": "https://github.com/AndreaVaGo/goxu-backend" },
+          { "label": "Código frontend", "url": "https://github.com/AndreaVaGo/goxu-frontend" }
+        ]
+      },
+      {
+        "name": "The Univers of Things",
+        "line": "front",
+        "lineLabel": "Línea Frontend",
+        "status": "live",
+        "statusLabel": "En servicio",
+        "description": "SPA hecha en equipo con Vue, publicada en GitHub Pages.",
+        "stack": ["Vue", "Pinia", "Vite"],
+        "links": [
+          { "label": "Ver web", "url": "https://andreavago.github.io/the-univers-of-things/" },
+          { "label": "Código", "url": "https://github.com/AndreaVaGo/the-univers-of-things" }
+        ]
+      }
+    ],
+    "others": [
+      "DuckStore",
+      "API REST de películas",
+      "Inside Out · Mi Diario",
+      "Kata RPG",
+      "House Builder",
+      "Any Company Global"
+    ]
   }
 }

@@ -1,5 +1,5 @@
 <script setup>
-import LanguageSwitch from '@/components/LanguageSwitch.vue'
+import TheHeader from '@/components/TheHeader.vue'
 import { useLanguageStore } from '@/stores/language'
 
 const languageStore = useLanguageStore()
@@ -7,11 +7,9 @@ const languageStore = useLanguageStore()
 
 <template>
   <div class="app">
-    <header class="app__header">
-      <LanguageSwitch />
-    </header>
+    <TheHeader />
 
-    <main>
+    <main class="app__main">
       <p class="app__label">{{ languageStore.texts.home.label }}</p>
       <h1 class="app__title">Andrea Vallina</h1>
       <p class="app__subtitle">
@@ -28,10 +26,8 @@ const languageStore = useLanguageStore()
   padding: var(--page-padding);
 }
 
-.app__header {
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 48px;
+.app__main {
+  margin-top: 48px;
 }
 
 .app__label {

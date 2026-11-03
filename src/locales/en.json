@@ -126,5 +126,15 @@
       "House Builder",
       "Any Company Global"
     ]
+  },
+  "contact": {
+    "badge": "Next station",
+    "title": "Your company",
+    "intro": "I'm looking for my first job as a full stack developer. Shall we talk?",
+    "cv": "Download CV"
+  },
+  "footer": {
+    "tests": "This portfolio passes 37 tests",
+    "madeWith": "Made with Vue, Pinia and lots of CSS"
   }
 }

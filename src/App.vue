@@ -1,6 +1,7 @@
 <script setup>
 import TheHeader from '@/components/TheHeader.vue'
 import HeroSection from '@/components/HeroSection.vue'
+import MetroTrack from '@/components/MetroTrack.vue'
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import HeroSection from '@/components/HeroSection.vue'
 
     <main>
       <HeroSection />
+      <MetroTrack />
     </main>
   </div>
 </template>

@@ -11,5 +11,26 @@
     "intro": "This is the route that took me from the shop counter to code. Hop on, I'll show you every stop.",
     "ctaJourney": "Hop on the train",
     "ctaCv": "Download CV"
+  },
+  "about": {
+    "eyebrow": "About me",
+    "titleLine1": "My ticket:",
+    "titleLine2": "one way only.",
+    "paragraph1": "I spent 12 years working face to face with customers and learned the most important thing about any product: understanding the people who use it. Then I studied web development (DAW), did an internship as a developer and completed the Full Stack bootcamp at Factoría F5.",
+    "paragraph2": "Today I build apps with Java, Spring Boot and Vue, writing the tests first."
+  },
+  "ticket": {
+    "label": "My metro ticket",
+    "type": "Metro · Single ticket",
+    "number": "No. 2006–2026",
+    "stamp": "Validated",
+    "fields": [
+      { "label": "Origin", "value": "Customer service · 2006" },
+      { "label": "Destination", "value": "Full Stack Developer" },
+      { "label": "Route", "value": "DAW + Factoría F5" },
+      { "label": "Fare", "value": "Unlimited curiosity" },
+      { "label": "Validity", "value": "One way, no return" },
+      { "label": "Passenger", "value": "Andrea Vallina González" }
+    ]
   }
 }

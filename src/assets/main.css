@@ -70,6 +70,17 @@ a {
   outline-offset: 3px;
 }
 
+/* ===========================================================
+   📏 LAYOUT HELPERS
+   =========================================================== */
+/* Centers the content and limits its width */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding-left: var(--page-padding);
+  padding-right: var(--page-padding);
+}
+
 /* Smaller padding on phones */
 @media (max-width: 768px) {
   :root {

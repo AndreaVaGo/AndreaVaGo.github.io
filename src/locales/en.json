@@ -25,12 +25,30 @@
     "number": "No. 2006–2026",
     "stamp": "Validated",
     "fields": [
-      { "label": "Origin", "value": "Customer service · 2006" },
-      { "label": "Destination", "value": "Full Stack Developer" },
-      { "label": "Route", "value": "DAW + Factoría F5" },
-      { "label": "Fare", "value": "Unlimited curiosity" },
-      { "label": "Validity", "value": "One way, no return" },
-      { "label": "Passenger", "value": "Andrea Vallina González" }
+      {
+        "label": "Origin",
+        "value": "Customer service · 2006"
+      },
+      {
+        "label": "Destination",
+        "value": "Full Stack Developer"
+      },
+      {
+        "label": "Route",
+        "value": "DAW + Factoría F5"
+      },
+      {
+        "label": "Fare",
+        "value": "Unlimited curiosity"
+      },
+      {
+        "label": "Validity",
+        "value": "One way, no return"
+      },
+      {
+        "label": "Passenger",
+        "value": "Andrea Vallina González"
+      }
     ]
   },
   "journey": {
@@ -44,25 +62,53 @@
         "id": "front",
         "name": "Frontend line",
         "stations": [
-          { "name": "HTML & CSS" },
-          { "name": "JavaScript", "project": "DuckStore" },
-          { "name": "Vue & Pinia", "project": "The Univers of Things" }
+          {
+            "name": "HTML & CSS"
+          },
+          {
+            "name": "JavaScript",
+            "project": "DuckStore"
+          },
+          {
+            "name": "Vue & Pinia",
+            "project": "The Univers of Things"
+          }
         ]
       },
       {
         "id": "data",
         "name": "Data line",
-        "stations": [{ "name": "SQL & databases" }, { "name": "Docker" }]
+        "stations": [
+          {
+            "name": "SQL & databases"
+          },
+          {
+            "name": "Docker"
+          }
+        ]
       },
       {
         "id": "back",
         "name": "Backend line",
         "stations": [
-          { "name": "Java 21" },
-          { "name": "TDD · JUnit 5", "project": "Kata RPG" },
-          { "name": "Spring Boot", "project": "Goxu" },
-          { "name": "Spring Security" },
-          { "name": "Acompáñame", "final": true }
+          {
+            "name": "Java 21"
+          },
+          {
+            "name": "TDD · JUnit 5",
+            "project": "Kata RPG"
+          },
+          {
+            "name": "Spring Boot",
+            "project": "Goxu"
+          },
+          {
+            "name": "Spring Security"
+          },
+          {
+            "name": "Acompáñame",
+            "final": true
+          }
         ]
       }
     ]
@@ -78,12 +124,23 @@
         "lineLabel": "Backend line · Final",
         "image": "/images/projects/acompaname.png",
         "imageAlt": "Screenshot of the Acompáñame app",
-        "badges": [{ "type": "wip", "label": "Under construction" }],
+        "badges": [
+          {
+            "type": "wip",
+            "label": "Under construction"
+          }
+        ],
         "description": "My final project: a marketplace to find caregivers who can stay with your loved ones, at the hospital or at home.",
         "stack": ["Java 21", "Spring Boot", "Spring Security", "Vue", "MySQL", "Docker"],
         "links": [
-          { "label": "Backend code", "url": "https://github.com/AndreaVaGo/acompaname-backend" },
-          { "label": "Frontend code", "url": "https://github.com/AndreaVaGo/acompaname-frontend" }
+          {
+            "label": "Backend code",
+            "url": "https://github.com/AndreaVaGo/acompaname-backend"
+          },
+          {
+            "label": "Frontend code",
+            "url": "https://github.com/AndreaVaGo/acompaname-frontend"
+          }
         ]
       },
       {
@@ -92,12 +149,23 @@
         "lineLabel": "Backend line",
         "image": "/images/projects/goxu.png",
         "imageAlt": "Screenshot of the Goxu restaurant app",
-        "badges": [{ "type": "team", "label": "Team project" }],
+        "badges": [
+          {
+            "type": "team",
+            "label": "Team project"
+          }
+        ],
         "description": "Restaurant app built as a team. My part: the admin and user dashboards, the product detail page and a simulated card payment.",
         "stack": ["Spring Boot", "Vue", "MySQL"],
         "links": [
-          { "label": "Backend code", "url": "https://github.com/AndreaVaGo/goxu-backend" },
-          { "label": "Frontend code", "url": "https://github.com/AndreaVaGo/goxu-frontend" }
+          {
+            "label": "Backend code",
+            "url": "https://github.com/AndreaVaGo/goxu-backend"
+          },
+          {
+            "label": "Frontend code",
+            "url": "https://github.com/AndreaVaGo/goxu-frontend"
+          }
         ]
       },
       {
@@ -107,24 +175,28 @@
         "image": "/images/projects/the-univers-of-things.png",
         "imageAlt": "Screenshot of The Univers of Things website",
         "badges": [
-          { "type": "live", "label": "Live" },
-          { "type": "team", "label": "Team project" }
+          {
+            "type": "live",
+            "label": "Live"
+          },
+          {
+            "type": "team",
+            "label": "Team project"
+          }
         ],
         "description": "Single page app built as a team with Vue, published on GitHub Pages.",
         "stack": ["Vue", "Pinia", "Vite"],
         "links": [
-          { "label": "Visit site", "url": "https://andreavago.github.io/the-univers-of-things/" },
-          { "label": "Code", "url": "https://github.com/AndreaVaGo/the-univers-of-things" }
+          {
+            "label": "Visit site",
+            "url": "https://andreavago.github.io/the-univers-of-things/"
+          },
+          {
+            "label": "Code",
+            "url": "https://github.com/AndreaVaGo/the-univers-of-things"
+          }
         ]
       }
-    ],
-    "others": [
-      "DuckStore",
-      "Movies REST API",
-      "Inside Out · My Diary",
-      "Kata RPG",
-      "House Builder",
-      "Any Company Global"
     ]
   },
   "contact": {

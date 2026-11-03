@@ -25,12 +25,30 @@
     "number": "Nº 2006–2026",
     "stamp": "Validado",
     "fields": [
-      { "label": "Origen", "value": "Atención al cliente · 2006" },
-      { "label": "Destino", "value": "Full Stack Developer" },
-      { "label": "Vía", "value": "DAW + Factoría F5" },
-      { "label": "Tarifa", "value": "Curiosidad ilimitada" },
-      { "label": "Validez", "value": "Solo ida, sin vuelta" },
-      { "label": "Pasajera", "value": "Andrea Vallina González" }
+      {
+        "label": "Origen",
+        "value": "Atención al cliente · 2006"
+      },
+      {
+        "label": "Destino",
+        "value": "Full Stack Developer"
+      },
+      {
+        "label": "Vía",
+        "value": "DAW + Factoría F5"
+      },
+      {
+        "label": "Tarifa",
+        "value": "Curiosidad ilimitada"
+      },
+      {
+        "label": "Validez",
+        "value": "Solo ida, sin vuelta"
+      },
+      {
+        "label": "Pasajera",
+        "value": "Andrea Vallina González"
+      }
     ]
   },
   "journey": {
@@ -44,25 +62,53 @@
         "id": "front",
         "name": "Línea Frontend",
         "stations": [
-          { "name": "HTML y CSS" },
-          { "name": "JavaScript", "project": "DuckStore" },
-          { "name": "Vue y Pinia", "project": "The Univers of Things" }
+          {
+            "name": "HTML y CSS"
+          },
+          {
+            "name": "JavaScript",
+            "project": "DuckStore"
+          },
+          {
+            "name": "Vue y Pinia",
+            "project": "The Univers of Things"
+          }
         ]
       },
       {
         "id": "data",
         "name": "Línea Datos",
-        "stations": [{ "name": "SQL y BBDD" }, { "name": "Docker" }]
+        "stations": [
+          {
+            "name": "SQL y BBDD"
+          },
+          {
+            "name": "Docker"
+          }
+        ]
       },
       {
         "id": "back",
         "name": "Línea Backend",
         "stations": [
-          { "name": "Java 21" },
-          { "name": "TDD · JUnit 5", "project": "Kata RPG" },
-          { "name": "Spring Boot", "project": "Goxu" },
-          { "name": "Spring Security" },
-          { "name": "Acompáñame", "final": true }
+          {
+            "name": "Java 21"
+          },
+          {
+            "name": "TDD · JUnit 5",
+            "project": "Kata RPG"
+          },
+          {
+            "name": "Spring Boot",
+            "project": "Goxu"
+          },
+          {
+            "name": "Spring Security"
+          },
+          {
+            "name": "Acompáñame",
+            "final": true
+          }
         ]
       }
     ]
@@ -78,12 +124,23 @@
         "lineLabel": "Línea Backend · Final",
         "image": "/images/projects/acompaname.png",
         "imageAlt": "Captura de pantalla de la app Acompáñame",
-        "badges": [{ "type": "wip", "label": "En obras" }],
+        "badges": [
+          {
+            "type": "wip",
+            "label": "En obras"
+          }
+        ],
         "description": "Mi proyecto final: un marketplace para encontrar personal cuidador que acompañe a familiares, en el hospital o en casa.",
         "stack": ["Java 21", "Spring Boot", "Spring Security", "Vue", "MySQL", "Docker"],
         "links": [
-          { "label": "Código backend", "url": "https://github.com/AndreaVaGo/acompaname-backend" },
-          { "label": "Código frontend", "url": "https://github.com/AndreaVaGo/acompaname-frontend" }
+          {
+            "label": "Código backend",
+            "url": "https://github.com/AndreaVaGo/acompaname-backend"
+          },
+          {
+            "label": "Código frontend",
+            "url": "https://github.com/AndreaVaGo/acompaname-frontend"
+          }
         ]
       },
       {
@@ -92,12 +149,23 @@
         "lineLabel": "Línea Backend",
         "image": "/images/projects/goxu.png",
         "imageAlt": "Captura de pantalla de la app de restaurante Goxu",
-        "badges": [{ "type": "team", "label": "En equipo" }],
+        "badges": [
+          {
+            "type": "team",
+            "label": "En equipo"
+          }
+        ],
         "description": "App de restaurante hecha en equipo. Mi parte: los paneles de administración y de usuario, el detalle de producto y un pago simulado con tarjeta.",
         "stack": ["Spring Boot", "Vue", "MySQL"],
         "links": [
-          { "label": "Código backend", "url": "https://github.com/AndreaVaGo/goxu-backend" },
-          { "label": "Código frontend", "url": "https://github.com/AndreaVaGo/goxu-frontend" }
+          {
+            "label": "Código backend",
+            "url": "https://github.com/AndreaVaGo/goxu-backend"
+          },
+          {
+            "label": "Código frontend",
+            "url": "https://github.com/AndreaVaGo/goxu-frontend"
+          }
         ]
       },
       {
@@ -107,24 +175,28 @@
         "image": "/images/projects/the-univers-of-things.png",
         "imageAlt": "Captura de pantalla de la web The Univers of Things",
         "badges": [
-          { "type": "live", "label": "En servicio" },
-          { "type": "team", "label": "En equipo" }
+          {
+            "type": "live",
+            "label": "En servicio"
+          },
+          {
+            "type": "team",
+            "label": "En equipo"
+          }
         ],
         "description": "SPA hecha en equipo con Vue, publicada en GitHub Pages.",
         "stack": ["Vue", "Pinia", "Vite"],
         "links": [
-          { "label": "Ver web", "url": "https://andreavago.github.io/the-univers-of-things/" },
-          { "label": "Código", "url": "https://github.com/AndreaVaGo/the-univers-of-things" }
+          {
+            "label": "Ver web",
+            "url": "https://andreavago.github.io/the-univers-of-things/"
+          },
+          {
+            "label": "Código",
+            "url": "https://github.com/AndreaVaGo/the-univers-of-things"
+          }
         ]
       }
-    ],
-    "others": [
-      "DuckStore",
-      "API REST de películas",
-      "Inside Out · Mi Diario",
-      "Kata RPG",
-      "House Builder",
-      "Any Company Global"
     ]
   },
   "contact": {

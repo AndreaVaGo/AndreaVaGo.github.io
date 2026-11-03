@@ -11,7 +11,7 @@ describe('language store', () => {
     const store = useLanguageStore()
 
     expect(store.lang).toBe('es')
-    expect(store.texts.home.label).toBe('Estación')
+    expect(store.texts.hero.station).toBe('Estación')
   })
 
   it('switches to english', () => {
@@ -20,7 +20,7 @@ describe('language store', () => {
     store.setLanguage('en')
 
     expect(store.lang).toBe('en')
-    expect(store.texts.home.label).toBe('Station')
+    expect(store.texts.hero.station).toBe('Station')
   })
 
   it('updates the html lang attribute', () => {

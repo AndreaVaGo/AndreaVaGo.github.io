@@ -76,8 +76,9 @@
         "name": "Acompáñame",
         "line": "back",
         "lineLabel": "Backend line · Final",
-        "status": "wip",
-        "statusLabel": "Under construction",
+        "image": "/images/projects/acompaname.png",
+        "imageAlt": "Screenshot of the Acompáñame app",
+        "badges": [{ "type": "wip", "label": "Under construction" }],
         "description": "My final project: a marketplace to find caregivers who can stay with your loved ones, at the hospital or at home.",
         "stack": ["Java 21", "Spring Boot", "Spring Security", "Vue", "MySQL", "Docker"],
         "links": [
@@ -89,8 +90,9 @@
         "name": "Goxu",
         "line": "back",
         "lineLabel": "Backend line",
-        "status": "team",
-        "statusLabel": "Team project",
+        "image": "/images/projects/goxu.png",
+        "imageAlt": "Screenshot of the Goxu restaurant app",
+        "badges": [{ "type": "team", "label": "Team project" }],
         "description": "Restaurant app built as a team. My part: the admin and user dashboards, the product detail page and a simulated card payment.",
         "stack": ["Spring Boot", "Vue", "MySQL"],
         "links": [
@@ -102,8 +104,12 @@
         "name": "The Univers of Things",
         "line": "front",
         "lineLabel": "Frontend line",
-        "status": "live",
-        "statusLabel": "Live",
+        "image": "/images/projects/the-univers-of-things.png",
+        "imageAlt": "Screenshot of The Univers of Things website",
+        "badges": [
+          { "type": "live", "label": "Live" },
+          { "type": "team", "label": "Team project" }
+        ],
         "description": "Single page app built as a team with Vue, published on GitHub Pages.",
         "stack": ["Vue", "Pinia", "Vite"],
         "links": [

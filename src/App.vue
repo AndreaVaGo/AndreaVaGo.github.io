@@ -2,23 +2,30 @@
 import TheHeader from '@/components/TheHeader.vue'
 import HeroSection from '@/components/HeroSection.vue'
 import MetroTrack from '@/components/MetroTrack.vue'
+import AboutSection from '@/components/AboutSection.vue'
 </script>
 
 <template>
-  <div class="app">
+  <div class="container app__header">
     <TheHeader />
+  </div>
 
-    <main>
+  <main>
+    <div class="container app__intro">
       <HeroSection />
       <MetroTrack />
-    </main>
-  </div>
+    </div>
+
+    <AboutSection />
+  </main>
 </template>
 
 <style scoped>
-.app {
-  max-width: var(--max-width);
-  margin: 0 auto;
-  padding: var(--page-padding);
+.app__header {
+  padding-top: 40px;
+}
+
+.app__intro {
+  padding-bottom: 96px;
 }
 </style>

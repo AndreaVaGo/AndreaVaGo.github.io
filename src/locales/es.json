@@ -11,5 +11,26 @@
     "intro": "Este es el trayecto que me llevó del mostrador al código. Sube, que te enseño cada parada.",
     "ctaJourney": "Subir al tren",
     "ctaCv": "Descargar CV"
+  },
+  "about": {
+    "eyebrow": "Sobre mí",
+    "titleLine1": "Mi billete:",
+    "titleLine2": "solo de ida.",
+    "paragraph1": "Trabajé 12 años de cara al público y aprendí lo más importante de un producto: entender a quien lo usa. Después estudié DAW, hice prácticas como desarrolladora y completé el bootcamp Full Stack de Factoría F5.",
+    "paragraph2": "Hoy construyo apps con Java, Spring Boot y Vue, escribiendo primero los tests."
+  },
+  "ticket": {
+    "label": "Mi billete de metro",
+    "type": "Metro · Billete sencillo",
+    "number": "Nº 2006–2026",
+    "stamp": "Validado",
+    "fields": [
+      { "label": "Origen", "value": "Atención al cliente · 2006" },
+      { "label": "Destino", "value": "Full Stack Developer" },
+      { "label": "Vía", "value": "DAW + Factoría F5" },
+      { "label": "Tarifa", "value": "Curiosidad ilimitada" },
+      { "label": "Validez", "value": "Solo ida, sin vuelta" },
+      { "label": "Pasajera", "value": "Andrea Vallina González" }
+    ]
   }
 }

@@ -4,20 +4,9 @@ import { useLanguageStore } from '@/stores/language'
 const languageStore = useLanguageStore()
 const year = new Date().getFullYear()
 
-const email = 'TU-EMAIL@ejemplo.com'
-
 const links = [
-  {
-    label: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/andrea-vallina-gonzalez/',
-    external: true,
-  },
-  { label: 'GitHub', url: 'https://github.com/AndreaVaGo', external: true },
-  {
-    label: email,
-    url: `mailto:${email}?subject=Contacto%20desde%20tu%20portafolio`,
-    external: false,
-  },
+  { label: 'LinkedIn', url: 'https://www.linkedin.com/in/andrea-vallina-gonzalez/' },
+  { label: 'GitHub', url: 'https://github.com/AndreaVaGo' },
 ]
 </script>
 
@@ -40,8 +29,8 @@ const links = [
           v-for="(link, index) in links"
           :key="link.label"
           :href="link.url"
-          :target="link.external ? '_blank' : null"
-          :rel="link.external ? 'noopener noreferrer' : null"
+          target="_blank"
+          rel="noopener noreferrer"
           class="contact__button"
           :class="{ 'contact__button--primary': index === 0 }"
         >
@@ -119,7 +108,6 @@ const links = [
   color: var(--color-on-dark);
   font-weight: 800;
   text-decoration: none;
-  overflow-wrap: anywhere;
   transition: transform 0.2s ease;
 }
 

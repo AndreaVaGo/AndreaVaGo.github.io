@@ -11,14 +11,29 @@ defineProps({
   <article class="card" :style="{ '--line-color': `var(--line-${project.line})` }">
     <div class="card__stripe" aria-hidden="true"></div>
 
-    <div class="card__image" aria-hidden="true">{{ project.name }}</div>
+    <img
+      :src="project.image"
+      :alt="project.imageAlt"
+      class="card__image"
+      width="800"
+      height="450"
+      loading="lazy"
+    />
 
     <div class="card__body">
       <div class="card__meta">
         <span class="card__line">{{ project.lineLabel }}</span>
-        <span class="card__status" :class="`card__status--${project.status}`">
-          {{ project.statusLabel }}
-        </span>
+
+        <ul class="card__badges">
+          <li
+            v-for="badge in project.badges"
+            :key="badge.type"
+            class="card__badge"
+            :class="`card__badge--${badge.type}`"
+          >
+            {{ badge.label }}
+          </li>
+        </ul>
       </div>
 
       <h3 class="card__title">{{ project.name }}</h3>
@@ -67,15 +82,13 @@ defineProps({
   background-color: var(--line-color);
 }
 
-/* Placeholder until we add real screenshots */
+/* Project screenshot */
 .card__image {
-  display: grid;
-  place-items: center;
+  width: 100%;
   height: 180px;
   background-color: #eee8f4;
-  color: var(--color-muted);
-  font-size: 14px;
-  font-weight: 600;
+  object-fit: cover;
+  object-position: top;
 }
 
 .card__body {
@@ -100,7 +113,17 @@ defineProps({
   font-weight: 700;
 }
 
-.card__status {
+/* Badges */
+.card__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.card__badge {
   padding: 4px 10px;
   border-radius: var(--radius-pill);
   font-size: 12px;
@@ -108,17 +131,17 @@ defineProps({
   text-transform: uppercase;
 }
 
-.card__status--wip {
+.card__badge--wip {
   background-color: #fce4f1;
   color: #a3105f;
 }
 
-.card__status--team {
+.card__badge--team {
   background-color: #ece3fb;
   color: #4a0fa3;
 }
 
-.card__status--live {
+.card__badge--live {
   background-color: #dcf5ec;
   color: #0a6b5d;
 }

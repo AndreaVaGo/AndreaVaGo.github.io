@@ -3,5 +3,18 @@
     "label": "Estación",
     "role": "Full Stack Developer",
     "status": "Portfolio en obras 🚧"
+  },
+  "nav": {
+    "label": "Navegación principal",
+    "about": "Sobre mí",
+    "journey": "Mi viaje",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "station": "Estación",
+    "intro": "Este es el trayecto que me llevó del mostrador al código. Sube, que te enseño cada parada.",
+    "ctaJourney": "Subir al tren",
+    "ctaCv": "Descargar CV"
   }
 }

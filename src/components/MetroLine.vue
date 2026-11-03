@@ -6,13 +6,28 @@ defineProps({
     type: Object,
     required: true,
   },
+  lineIndex: {
+    type: Number,
+    default: 0,
+  },
+  active: {
+    type: Boolean,
+    default: false,
+  },
 })
 
 const languageStore = useLanguageStore()
 </script>
 
 <template>
-  <div class="line" :style="{ '--line-color': `var(--line-${line.id})` }">
+  <div
+    class="line"
+    :class="{ 'line--active': active }"
+    :style="{
+      '--line-color': `var(--line-${line.id})`,
+      '--line-delay': `${lineIndex * 0.6}s`,
+    }"
+  >
     <h3 class="line__name">
       <span class="line__swatch" aria-hidden="true"></span>
       {{ line.name }}
@@ -20,10 +35,11 @@ const languageStore = useLanguageStore()
 
     <ol class="line__stations">
       <li
-        v-for="station in line.stations"
+        v-for="(station, index) in line.stations"
         :key="station.name"
         class="line__station"
         :class="{ 'line__station--final': station.final }"
+        :style="{ '--station-delay': `${index * 0.15}s` }"
       >
         <span class="line__dot" aria-hidden="true"></span>
 
@@ -77,6 +93,8 @@ const languageStore = useLanguageStore()
   height: 10px;
   border-radius: 5px;
   background-color: var(--line-color);
+  transform: scaleX(0);
+  transform-origin: left;
 }
 
 .line__station {
@@ -86,6 +104,7 @@ const languageStore = useLanguageStore()
   align-items: center;
   gap: 12px;
   text-align: center;
+  opacity: 0;
 }
 
 .line__dot {
@@ -136,6 +155,47 @@ const languageStore = useLanguageStore()
   text-transform: uppercase;
 }
 
+/* ===== Animations (only when the map is in view) ===== */
+.line--active .line__stations::before {
+  animation: draw-x 0.8s ease-out var(--line-delay) both;
+}
+
+.line--active .line__station {
+  animation: pop 0.4s ease-out calc(var(--line-delay) + var(--station-delay)) both;
+}
+
+@keyframes draw-x {
+  from {
+    transform: scaleX(0);
+  }
+
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes draw-y {
+  from {
+    transform: scaleY(0);
+  }
+
+  to {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes pop {
+  from {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 /* Phones: the line goes down */
 @media (max-width: 768px) {
   .line__stations {
@@ -149,6 +209,12 @@ const languageStore = useLanguageStore()
     left: 9px;
     width: 10px;
     height: auto;
+    transform: scaleY(0);
+    transform-origin: top;
+  }
+
+  .line--active .line__stations::before {
+    animation-name: draw-y;
   }
 
   .line__station {

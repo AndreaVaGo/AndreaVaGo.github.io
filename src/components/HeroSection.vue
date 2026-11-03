@@ -21,15 +21,8 @@ const languageStore = useLanguageStore()
     <p class="hero__intro">{{ languageStore.texts.hero.intro }}</p>
 
     <div class="hero__actions">
-      <a href="#journey" class="hero__button hero__button--primary">
+      <a href="#journey" class="hero__button">
         {{ languageStore.texts.hero.ctaJourney }}
-      </a>
-      <a
-        href="/cv-andrea-vallina-gonzalez.pdf"
-        download
-        class="hero__button hero__button--secondary"
-      >
-        {{ languageStore.texts.hero.ctaCv }}
       </a>
     </div>
   </section>
@@ -90,7 +83,7 @@ const languageStore = useLanguageStore()
   color: var(--color-ink-soft);
 }
 
-/* Buttons */
+/* Button */
 .hero__actions {
   display: flex;
   flex-wrap: wrap;
@@ -104,6 +97,8 @@ const languageStore = useLanguageStore()
   padding: 0 28px;
   border: 2px solid var(--color-ink);
   border-radius: var(--radius-pill);
+  background-color: var(--color-ink);
+  color: var(--color-on-dark);
   font-weight: 800;
   text-decoration: none;
   transition: transform 0.2s ease;
@@ -111,16 +106,6 @@ const languageStore = useLanguageStore()
 
 .hero__button:hover {
   transform: translateY(-3px);
-}
-
-.hero__button--primary {
-  background-color: var(--color-ink);
-  color: var(--color-on-dark);
-}
-
-.hero__button--secondary {
-  background-color: transparent;
-  color: var(--color-ink);
 }
 
 /* Phones */

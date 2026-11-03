@@ -3,5 +3,18 @@
     "label": "Station",
     "role": "Full Stack Developer",
     "status": "Portfolio under construction 🚧"
+  },
+  "nav": {
+    "label": "Main navigation",
+    "about": "About me",
+    "journey": "My journey",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "station": "Station",
+    "intro": "This is the route that took me from the shop counter to code. Hop on, I'll show you every stop.",
+    "ctaJourney": "Hop on the train",
+    "ctaCv": "Download CV"
   }
 }

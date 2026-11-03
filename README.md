@@ -1,456 +1,278 @@
-<!-- ============================================================ -->
-<!-- 🌊 HEADER BANNER                                              -->
-<!-- ============================================================ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F00FF,50:E100FF,100:FF6EC7&height=220&section=header&text=Andrea%20Vallina&fontSize=55&fontColor=ffffff&fontAlignY=35&desc=Full%20Stack%20Developer%20in%20training&descSize=20&descAlignY=55&animation=fadeIn" width="100%" />
+<div align="center">
 
-<!-- ⌨️ TYPING TEXT: edit "lines=" to change the phrases (separate them with ;) -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=E100FF&center=true&vCenter=true&width=700&lines=Full+Stack+Developer+in+training+%F0%9F%92%BB;Java+%C2%B7+Spring+Boot+%C2%B7+Vue+%C2%B7+TypeScript;I+love+TDD+and+clean+code+%F0%9F%A7%AA;Looking+for+my+first+opportunity+%F0%9F%9A%80" />
-</p>
+# 🚇 Andrea Vallina González · Portfolio
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=AndreaVaGo&label=Profile%20views&color=blueviolet&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-Open%20to%20work-FF6EC7?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Location-Oviedo,%20Spain-7F00FF?style=for-the-badge" />
-</p>
+**My journey from customer service to Full Stack Developer, told as a metro line.**
 
-<!-- 🚇 PORTFOLIO: big button to the portfolio -->
-<p align="center">
-  <a href="https://andreavago.github.io">
-    <img src="https://img.shields.io/badge/Portfolio-andreavago.github.io-D6187E?style=for-the-badge&logo=vuedotjs&logoColor=white" height="40" />
-  </a>
-</p>
+[![Live site](https://img.shields.io/badge/Live_site-andreavago.github.io-D6187E?style=for-the-badge&logo=githubpages&logoColor=white)](https://andreavago.github.io)
+[![Deploy](https://img.shields.io/github/actions/workflow/status/AndreaVaGo/AndreaVaGo.github.io/deploy.yml?branch=main&style=for-the-badge&label=Deploy)](https://github.com/AndreaVaGo/AndreaVaGo.github.io/actions)
+![Tests](https://img.shields.io/badge/Tests-37_passing-3DDC97?style=for-the-badge)
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
+![Vue](https://img.shields.io/badge/Vue_3-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Pinia](https://img.shields.io/badge/Pinia-FFD859?style=flat-square&logo=pinia&logoColor=black)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
-<!-- ============================================================ -->
-<!-- 👋 ABOUT ME (required)                                        -->
-<!-- ============================================================ -->
-<h2>
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" width="35" />
-  About Me
-</h2>
+</div>
 
-<!-- 👩‍💻 AVATAR: custom image saved in this repo at assets/avatar.svg -->
-<img align="right" src="assets/avatar.svg" width="160" />
+---
 
-- 🎓 Graduated in **Web Application Development (DAW)**
-- 🚀 Currently in the Full Stack Bootcamp at **Factoría F5 Asturias**
-- 💻 I work on both sides: **frontend** with Vue and TypeScript, **backend** with Java and Spring Boot
-- 🧪 Passionate about **TDD**, clean code and good architecture
-- 🤝 I enjoy teamwork, code reviews and learning from others
-- 🌱 Always learning something new
-- 🎯 Goal: start my professional career as a Full Stack Developer
+## 📖 Table of contents
 
-<br clear="right" />
+- [About the project](#-about-the-project)
+- [Features](#-features)
+- [Sections](#-sections)
+- [Tech stack](#-tech-stack)
+- [Project structure](#-project-structure)
+- [How the animations work](#-how-the-animations-work)
+- [Languages (ES / EN)](#-languages-es--en)
+- [Testing](#-testing)
+- [Getting started](#-getting-started)
+- [Deployment (CI/CD)](#-deployment-cicd)
+- [Git workflow](#-git-workflow)
+- [Accessibility](#-accessibility)
+- [Author](#-author)
 
-<!-- 🔭 CURRENTLY WORKING ON: update it when you start something new -->
-<h3>🔭 Currently working on</h3>
+---
 
-- 🚇 My **portfolio**, a metro line of my journey built with Vue, Pinia, Vitest and Playwright: [andreavago.github.io](https://andreavago.github.io)
-- 🤝 Building **Acompáñame**, my final bootcamp project: a caregiver marketplace that connects families with caregivers (Spring Boot + Vue)
-- 🤖 Learning about **LLMs and local AI**: Ollama, OpenCode and open models like Gemma
-- ☁️ Learning **AWS** cloud fundamentals with AWS Skill Builder
+## 🚉 About the project
 
-<!-- 💪 SOFT SKILLS -->
-<h3>💪 Soft Skills</h3>
+This is my personal portfolio. I wanted something **original**, not a generic template, that tells **my own story**:
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Teamwork-7F00FF?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Problem_Solving-E100FF?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Communication-FF6EC7?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Continuous_Learning-7F00FF?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Agile_&_Scrum-E100FF?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Attention_to_Detail-FF6EC7?style=for-the-badge" />
-</p>
+> I spent 12 years working with customers, then studied Web Application Development (DAW) and completed the Full Stack bootcamp at **Factoría F5 Asturias**.
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
+So I designed the website as a **metro line** 🚇: every station is something I learned, and every project is a stop on the way. My "About me" is a **one-way metro ticket**: origin _Customer service_, destination _Full Stack Developer_.
 
-<!-- ============================================================ -->
-<!-- 💻 CURRENT STACK (required)                                    -->
-<!-- ============================================================ -->
-<h2>
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="32" />
-  Current Stack
-</h2>
+I built it from scratch with the tools I learned in the bootcamp, keeping the code simple and readable, and I can explain every line of it. 💜
 
-<!-- 🎨 FRONTEND -->
-<h3>🎨 Frontend</h3>
+---
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,sass,bootstrap,js,ts,vue,vite&theme=dark" />
-</p>
+## ✨ Features
 
-<p align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pinia-FFD859?style=for-the-badge&logo=pinia&logoColor=black" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
-</p>
+- 🌍 **Bilingual**: Spanish and English, switched with a Pinia store
+- 📱 **Responsive**: desktop, tablet and mobile (the metro map turns vertical on phones)
+- 🎬 **CSS animations**: a train riding the track, a ticket being validated, metro lines drawing themselves
+- 👀 **Scroll-triggered animations** with my own `useInView` composable (IntersectionObserver)
+- ♿ **Accessible**: semantic HTML, heading hierarchy, `aria` labels, visible focus and `prefers-reduced-motion`
+- 🧪 **37 tests**: unit tests with Vitest and end-to-end tests with Playwright in 3 browsers
+- 🚀 **Automatic deployment** to GitHub Pages with GitHub Actions
+- 🗂️ **Data-driven**: texts, metro lines and projects live in JSON files, components just render them
 
-<!-- ⚙️ BACKEND -->
-<h3>⚙️ Backend</h3>
+---
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,maven&theme=dark" />
-</p>
+## 🗺️ Sections
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
-  <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white" />
-</p>
+| Section           | What it shows                                  | Highlights                                                          |
+| ----------------- | ---------------------------------------------- | ------------------------------------------------------------------- |
+| 🚉 **Hero**       | Station sign with my name and role             | Animated train that turns around at the end of the track            |
+| 🎫 **About me**   | My story as a metro ticket                     | The ticket slides into the machine and gets a "VALIDATED" ink stamp |
+| 🗺️ **My journey** | Bootcamp map: Frontend, Data and Backend lines | Lines draw themselves and stations pop in, one after another        |
+| 🃏 **Projects**   | Featured projects as cards                     | Line color, badges, tech stack, screenshots and links               |
+| 📬 **Contact**    | "Next station → Your company."                 | Footer with the number of tests the portfolio passes                |
 
-<!-- 🗄️ DATABASES -->
-<h3>🗄️ Databases</h3>
+---
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=mysql,sqlite&theme=dark" />
-</p>
+## 🛠️ Tech stack
 
-<p align="center">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
-  <img src="https://img.shields.io/badge/H2-1021FF?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/DBeaver-382923?style=for-the-badge&logo=dbeaver&logoColor=white" />
-</p>
+| Technology                        | What I used it for                                                                                     |
+| --------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| **Vue 3** (`<script setup>`)      | Components, props, `v-for`, `v-if`, template refs                                                      |
+| **Pinia**                         | Language store: state (`lang`), getter (`texts`) and action (`setLanguage`)                            |
+| **Vite**                          | Dev server and build                                                                                   |
+| **CSS**                           | Custom properties (design tokens), Flexbox, Grid, `@keyframes`, transitions, media queries, BEM naming |
+| **Vitest + Vue Test Utils**       | Unit tests for the store and components                                                                |
+| **Playwright**                    | End-to-end tests in Chromium, Firefox and WebKit                                                       |
+| **GitHub Actions + GitHub Pages** | Build and deploy on every push to `main`                                                               |
 
-<!-- 🧪 TESTING -->
-<h3>🧪 Testing</h3>
+No UI libraries and no animation libraries: everything is plain Vue and CSS.
 
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/junit/junit-original.svg" width="48" />
-  <img src="https://skillicons.dev/icons?i=postman&theme=dark" />
-</p>
+---
 
-<p align="center">
-  <img src="https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white" />
-  <img src="https://img.shields.io/badge/Mockito-78A641?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/JaCoCo-B22222?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white" />
-  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
-</p>
+## 📁 Project structure
 
-<!-- 🐳 DEVOPS & TOOLS -->
-<h3>🐳 DevOps & Tools</h3>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,docker,vscode&theme=dark" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" />
-  <img src="https://img.shields.io/badge/draw.io-F08705?style=for-the-badge&logo=diagramsdotnet&logoColor=white" />
-</p>
-
-<!-- 📋 WHAT I'VE DONE WITH EACH TECHNOLOGY -->
-<h3>📋 What I've done with them</h3>
-
-| Technology | Experience |
-|---|---|
-| 🌐 **HTML5 & CSS3** | Semantic layouts, Flexbox, Grid, BEM, responsive design and visual effects |
-| 🎨 **Sass & Bootstrap** | Variables, nesting, reusable styles and responsive components |
-| ⚡ **JavaScript** | DOM manipulation, dynamic catalogs, filters and shopping cart |
-| 🔷 **TypeScript** | Typed code for safer and more maintainable apps |
-| 💚 **Vue, Pinia & Vite** | SPAs with routing, state management and dashboards |
-| ☕ **Java** | OOP, inheritance, interfaces, enums, collections, generics, design patterns |
-| 🍃 **Spring & Spring Boot** | REST APIs with DTOs, validations, exception handling and JPA relationships |
-| 🗄️ **Databases** | Normalization, Chen and crow's foot diagrams, SQL queries and JOINs |
-| 🧪 **Testing** | TDD with JUnit 5 and Mockito, MockMvc, Vitest and Playwright (e2e) |
-| 📮 **Postman** | Testing and documenting API endpoints |
-| 🐳 **Docker** | Running MySQL with Docker Compose |
-| 🔀 **Git, GitHub & Jira** | Gitflow, forks, Pull Requests and sprint management |
-
-<!-- 🏛️ GOOD PRACTICES -->
-<h3>🏛️ Good practices</h3>
-
-| 🧪 Testing | 🏗️ Architecture | 🔀 Teamwork |
-|:---:|:---:|:---:|
-| TDD · Red-Green-Refactor · Coverage | MVC · Layered · SOLID · Design Patterns | Gitflow · `feat/` branches · Pull Requests · Sprints |
-
-<!-- 🛤️ LEARNING JOURNEY: GitHub draws this diagram automatically with Mermaid -->
-<h3>🛤️ My Bootcamp Journey</h3>
-
-```mermaid
-flowchart LR
-    A[🌐 HTML & CSS] --> B[⚡ JavaScript]
-    B --> C[💚 Vue & TypeScript]
-    C --> D[🗄️ SQL & Databases]
-    D --> E[☕ Java & TDD]
-    E --> F[🍃 Spring Boot & REST APIs]
-    F --> G[🚀 Final Project]
-
-    style A fill:#E34F26,color:#fff,stroke:none
-    style B fill:#F7DF1E,color:#000,stroke:none
-    style C fill:#4FC08D,color:#fff,stroke:none
-    style D fill:#4479A1,color:#fff,stroke:none
-    style E fill:#ED8B00,color:#fff,stroke:none
-    style F fill:#6DB33F,color:#fff,stroke:none
-    style G fill:#E100FF,color:#fff,stroke:none
+```
+├── .github/workflows/
+│   └── deploy.yml            # CI/CD: build and deploy to GitHub Pages
+├── e2e/
+│   └── vue.spec.js           # Playwright end-to-end tests
+├── public/
+│   ├── favicon.svg           # Metro "M" sign
+│   └── images/projects/      # Project screenshots
+├── src/
+│   ├── assets/
+│   │   └── main.css          # Design tokens and base styles
+│   ├── components/
+│   │   ├── TheHeader.vue
+│   │   ├── LanguageSwitch.vue
+│   │   ├── HeroSection.vue
+│   │   ├── MetroTrack.vue
+│   │   ├── AboutSection.vue
+│   │   ├── MetroTicket.vue
+│   │   ├── JourneySection.vue
+│   │   ├── MetroLine.vue
+│   │   ├── ProjectsSection.vue
+│   │   ├── ProjectCard.vue
+│   │   ├── ContactSection.vue
+│   │   └── __tests__/        # Component unit tests
+│   ├── composables/
+│   │   └── useInView.js      # Tells when an element is on screen
+│   ├── locales/
+│   │   ├── es.json           # Spanish texts and data
+│   │   └── en.json           # English texts and data
+│   ├── stores/
+│   │   ├── language.js       # Pinia language store
+│   │   └── __tests__/
+│   ├── App.vue               # Puts all the sections in order
+│   └── main.js               # App entry point
+└── index.html
 ```
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
-
-<!-- ============================================================ -->
-<!-- 🎓 EDUCATION                                                   -->
-<!-- ============================================================ -->
-<h2>
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Graduation%20Cap.png" width="32" />
-  Education
-</h2>
-
-| 📚 Training | 🏫 Center | 📅 Status |
-|---|---|:---:|
-| **Full Stack Web Development Bootcamp** | Factoría F5 Asturias | 🟣 In progress |
-| **Higher Technician in Web Application Development (DAW)** | IES Doctor Fleming | ✅ Completed |
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
+---
 
-<!-- ============================================================ -->
-<!-- 🚀 FEATURED PROJECTS (extra): copy a <details> block to add more -->
-<!-- ============================================================ -->
-<h2>
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="32" />
-  Featured Projects
-</h2>
-
-<!-- 🌐 FULL STACK & BACKEND -->
-<h3>🌐 Full Stack & Backend</h3>
-
-<details open>
-<summary>🤝 <b>Acompáñame</b>: Caregiver marketplace (final bootcamp project) 🚧</summary>
-<br />
-
-Web app that connects families with caregivers for home and hospital support. Families can search caregivers, send service requests and leave reviews.
-
-![Status](https://img.shields.io/badge/Status-In_progress-FF6EC7?style=flat-square)
-![Java](https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Vue](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
-![Pinia](https://img.shields.io/badge/Pinia-FFD859?style=flat-square&logo=pinia&logoColor=black)
-
-- 🏗️ REST API with full CRUD, DTOs, mappers and centralized exception handling
-- 🔐 Authentication with Spring Security
-- 🧪 Unit tests with JUnit 5 and Mockito, integration tests with Testcontainers
-- 📋 Planned in Jira, with ER and UML class diagrams
+## 🎬 How the animations work
 
-🔗 [Frontend](https://github.com/AndreaVaGo/acompaname-frontend) · [Backend](https://github.com/AndreaVaGo/acompaname-backend)
-</details>
-
-<details>
-<summary>🍽️ <b>Goxu</b>: Restaurant app (team project)</summary>
-<br />
+All animations are made with **CSS** (`@keyframes` and `transition`). JavaScript only decides **when** they start.
 
-Full restaurant app: orders, kitchen, delivery and administration. Team of 6 developers.
+### 🚃 The train (`MetroTrack.vue`)
 
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Vue](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+A `@keyframes` animation moves the train with `left` from one end of the track to the other. At 50% it flips with `transform: scaleX(-1)`, so it always faces the direction it is going. `ease-in-out` makes it start and stop smoothly, like a real train.
 
-- 👩‍💻 **My part:** Admin Dashboard, User Dashboard, Product Detail, and orders & payments backend
+### 👀 Starting animations on scroll (`useInView.js`)
 
-🔗 [Frontend](https://github.com/AndreaVaGo/goxu-frontend) · [Backend](https://github.com/AndreaVaGo/goxu-backend)
-</details>
+If an animation starts when the page loads, nobody sees the ones further down. So I made a **composable** that uses the browser's `IntersectionObserver`:
 
-<details>
-<summary>🎬 <b>API Movies</b>: REST API</summary>
-<br />
+```js
+const { target, isVisible } = useInView({ threshold: 0.2 })
+```
 
-REST API to manage movies with genres, years and cast, including CRUD endpoints and a search by title or genre.
+1. `target` is linked to an element with `ref="target"`
+2. When that element is on screen, `isVisible` becomes `true`
+3. The observer disconnects, so the animation only runs once
+4. If the browser has no `IntersectionObserver` (for example, in tests), the content is shown straight away
 
-![Java](https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+### 🎫 The ticket (`MetroTicket.vue`)
 
-- 🏗️ Controller → Service → Repository, with DTOs, mappers and validations
-- 🔗 JPA relationships: N:1 and N:M (with a join table)
-- ⚠️ Custom exceptions and global error handling with `@RestControllerAdvice`
-- 🧪 Tests with JUnit, Mockito and MockMvc
+`AboutSection` passes `isVisible` to the ticket as a prop (`:inserted="isVisible"`). When it becomes `true`, the class `ticket--inserted` starts two animations: the ticket **slides into the machine** and, a moment later, the stamp **hits the paper** (it starts big with `scale(1.6)`, goes a bit too small and bounces back). The stamp uses `mix-blend-mode: multiply`, so the text underneath can still be read, like real ink.
 
-🔗 [Repository](https://github.com/AndreaVaGo/api-movies-)
-</details>
+### 🗺️ The metro map (`MetroLine.vue`)
 
-<!-- 🎨 FRONTEND -->
-<h3>🎨 Frontend</h3>
+Each line gets its color and delay through **CSS custom properties** set from Vue:
 
-<details>
-<summary>🎌 <b>OtakuHub</b>: Vue SPA (team project)</summary>
-<br />
+```vue
+:style="{ '--line-color': `var(--line-${line.id})`, '--line-delay': `${lineIndex * 0.6}s` }"
+```
 
-Single Page Application using the Jikan API, built in a team across two sprints managed in Jira.
+The track grows with `scaleX(0 → 1)` (or `scaleY` on mobile) and each station pops in with its own `--station-delay`. Adding both delays with `calc()` makes the whole map draw itself in order.
 
-![Vue](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
-![Pinia](https://img.shields.io/badge/Pinia-FFD859?style=flat-square&logo=pinia&logoColor=black)
-![Sass](https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=sass&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
-![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+### ♿ Reduced motion
 
-- 🧭 Vue Router and Pinia for navigation and state management
-- 🧪 Unit tests with Vitest and e2e tests with Playwright
-- 🚀 Deployed on GitHub Pages
+If the user has _reduce motion_ turned on in their system, a `prefers-reduced-motion` media query in `main.css` turns the animations off.
 
-🔗 [Repository](https://github.com/AndreaVaGo/the-univers-of-things) · [🌐 Live demo](https://andreavago.github.io/the-univers-of-things/)
-</details>
+---
 
-<details>
-<summary>🦆 <b>DuckStore</b>: Rubber duck e-commerce (team project)</summary>
-<br />
+## 🌍 Languages (ES / EN)
 
-Static HTML/CSS shop turned into a dynamic JavaScript e-commerce.
+All the texts are in `src/locales/es.json` and `src/locales/en.json`, with exactly the same keys. The Pinia store returns the texts of the selected language:
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+```js
+const lang = ref('es')
+const texts = computed(() => messages[lang.value])
+```
 
-- 🛒 Dynamic catalog, filters and shopping cart
-- 👩‍💻 **My part:** dynamic catalog rendering
-- 🔀 Gitflow methodology
+When the language changes, `setLanguage` also updates `<html lang="…">`, so screen readers pronounce the page correctly. The metro lines and projects are **arrays in the JSON**, so adding a new station or project doesn't need any code changes.
 
-🔗 [Repository](https://github.com/AndreaVaGo/DuckStore)
-</details>
+---
 
-<details>
-<summary>🎨 <b>HTML & CSS practice</b>: Grid, Flexbox and visual effects</summary>
-<br />
+## 🧪 Testing
 
-Layout and styling exercises from the first weeks of the bootcamp.
+| Type       | Tool       | Tests | What they check                                                      |
+| ---------- | ---------- | :---: | -------------------------------------------------------------------- |
+| Unit       | Vitest     |  19   | Language store, `App`, `MetroTicket`, `MetroLine`, `ProjectCard`     |
+| End-to-end | Playwright |  18   | Navigation, language switch, sections in view (6 tests × 3 browsers) |
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+- The language store was built with **TDD**: test first 🔴, then code 🟢
+- Component tests use small **fixtures** (fake data), so they don't break when the real content changes
+- E2E tests find elements **by role** (`getByRole`), the same way a person or a screen reader would
 
-- 🔲 [Utilizando-Grid](https://github.com/AndreaVaGo/Utilizando-Grid): responsive color panel with BEM and CSS custom properties
-- 📦 [Utilizando-Flexbox](https://github.com/AndreaVaGo/Utilizando-Flexbox): Flexbox layouts
-- ✨ [css-visual-effects](https://github.com/AndreaVaGo/css-visual-effects): CSS visual effects
-- ⚡ [micro-exercises-js](https://github.com/AndreaVaGo/micro-exercises-js): JavaScript exercises tested with Vitest
-</details>
+---
 
-<!-- ☕ JAVA & TDD -->
-<h3>☕ Java & TDD</h3>
+## 🚀 Getting started
 
-<details>
-<summary>📔 <b>Inside Out</b>: Console diary app</summary>
-<br />
+**Requirements:** Node.js 22 or newer
 
-Console app to record life moments linked to emotions.
+```bash
+# Clone the repository
+git clone https://github.com/AndreaVaGo/AndreaVaGo.github.io.git
+cd AndreaVaGo.github.io
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![JUnit5](https://img.shields.io/badge/JUnit5-25A162?style=flat-square&logo=junit5&logoColor=white)
-![Mockito](https://img.shields.io/badge/Mockito-78A641?style=flat-square)
+# Install dependencies
+npm install
 
-- 🏗️ Layered architecture: View → Controller → Service → Repository → DAO, with DTOs and Mappers
+# Start the dev server (http://localhost:5173)
+npm run dev
+```
 
-🔗 [Repository](https://github.com/AndreaVaGo/java-console-diary-inside-out)
-</details>
+| Command                  | What it does                                                |
+| ------------------------ | ----------------------------------------------------------- |
+| `npm run dev`            | Starts the development server                               |
+| `npm run build`          | Builds the site for production into `dist/`                 |
+| `npm run preview`        | Serves the production build locally                         |
+| `npm run test:unit`      | Runs the unit tests with Vitest                             |
+| `npx playwright install` | Downloads the browsers for Playwright (only the first time) |
+| `npm run test:e2e`       | Runs the end-to-end tests with Playwright                   |
+| `npm run lint`           | Checks the code style                                       |
 
-<details>
-<summary>⚔️ <b>RPG Combat Kata</b>: TDD practice</summary>
-<br />
+---
 
-TDD kata in 5 iterations: damage, levels, range, factions and damageable props.
+## ⚙️ Deployment (CI/CD)
 
-![Java](https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![JUnit5](https://img.shields.io/badge/JUnit5-25A162?style=flat-square&logo=junit5&logoColor=white)
-![Coverage](https://img.shields.io/badge/Coverage-90%25+-brightgreen?style=flat-square)
+The site is deployed automatically with **GitHub Actions** (`.github/workflows/deploy.yml`):
 
-🔗 [Repository](https://github.com/AndreaVaGo/java-tdd-rpg-combat-kata)
-</details>
+```
+push to main → install dependencies → build → upload dist/ → deploy to GitHub Pages
+```
 
-<details>
-<summary>🏦 <b>Bank Account</b>: Inheritance in Java</summary>
-<br />
+Every change merged into `main` is live at **[andreavago.github.io](https://andreavago.github.io)** in about a minute.
 
-Bank account model with a base class and two child classes: savings account and checking account.
+---
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![JUnit5](https://img.shields.io/badge/JUnit5-25A162?style=flat-square&logo=junit5&logoColor=white)
-![Coverage](https://img.shields.io/badge/Coverage-96%25-brightgreen?style=flat-square)
+## 🌿 Git workflow
 
-- 🧬 Inheritance, encapsulation and method overriding
-- 🧪 Parameterized tests and UML class diagram
+I worked with **Gitflow** and **Conventional Commits**:
 
-🔗 [Repository](https://github.com/AndreaVaGo/cuenta-bancaria)
-</details>
+- `main` → what is published
+- `dev` → integration branch
+- `feat/…`, `fix/…`, `docs/…` → one branch per task, merged into `dev` with a Pull Request, then `dev` into `main`
+- Small commits, one change per commit: `feat:`, `fix:`, `style:`, `refactor:`, `test:`, `perf:`, `chore:`, `docs:`
 
-<details>
-<summary>🏠 <b>House Builder</b>: Builder design pattern</summary>
-<br />
+---
 
-Implementation of the Builder pattern to create houses with optional features: garage, garden, swimming pool and statues.
+## ♿ Accessibility
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![JUnit5](https://img.shields.io/badge/JUnit5-25A162?style=flat-square&logo=junit5&logoColor=white)
+- Semantic HTML: `header`, `nav`, `main`, `section`, `article`, `dl`, `ol`
+- One `h1` and a clear `h2` → `h3` hierarchy
+- `aria-label` and `aria-labelledby` for sections, navigation and the ticket
+- `aria-hidden` on decorative elements (track, train, machine)
+- `aria-pressed` on the language buttons
+- Translated `alt` text on every screenshot
+- Visible focus for keyboard users (`:focus-visible`)
+- Animations off with `prefers-reduced-motion`
 
-- 🧩 Builder interface, concrete builder and director
-- 🧪 Unit tests with coverage and class diagram
+---
 
-🔗 [Repository](https://github.com/AndreaVaGo/ex-java-design_patterns-house_builder)
-</details>
+## 👩‍💻 Author
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
+**Andrea Vallina González** · Full Stack Developer
 
-<!-- ============================================================ -->
-<!-- 📊 GITHUB STATS (optional): generated automatically            -->
-<!-- ============================================================ -->
-<h2>
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="32" />
-  GitHub Stats
-</h2>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrea-vallina-gonzalez/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AndreaVaGo)
+[![Portfolio](https://img.shields.io/badge/Portfolio-D6187E?style=for-the-badge&logo=vuedotjs&logoColor=white)](https://andreavago.github.io)
 
-<!-- 🔥 STREAK: consecutive days with contributions -->
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=AndreaVaGo&theme=tokyonight&hide_border=true&ring=E100FF&fire=FF6EC7&currStreakLabel=E100FF" />
-</p>
+<div align="center">
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
+_Next station: your company._ 🚇💜
 
-<!-- ============================================================ -->
-<!-- 📫 CONTACT (required)                                          -->
-<!-- ============================================================ -->
-<h2>
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Envelope%20with%20Arrow.png" width="32" />
-  Contact
-</h2>
-
-<p align="center">
-  Feel free to reach out! I'm always open to new opportunities, collaborations and a good chat about code 💬
-</p>
-
-<p align="center">
-  <a href="https://andreavago.github.io">
-    <img src="https://img.shields.io/badge/Portfolio-D6187E?style=for-the-badge&logo=vuedotjs&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/andrea-vallina-gonzalez/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://github.com/AndreaVaGo">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</p>
-
-<!-- 💬 QUOTE -->
-<p align="center">
-  <i>"Every expert was once a beginner. Keep coding, keep learning."</i> 💜
-</p>
-
-<!-- 🌊 FOOTER BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6EC7,50:E100FF,100:7F00FF&height=120&section=footer" width="100%" />
+</div>

@@ -1,6 +1,10 @@
 <template>
   <div class="track" aria-hidden="true">
-    <span class="track__train"></span>
+    <span class="track__train">
+      <span class="track__window"></span>
+      <span class="track__window"></span>
+      <span class="track__window"></span>
+    </span>
   </div>
 </template>
 
@@ -8,7 +12,7 @@
 .track {
   position: relative;
   height: 10px;
-  margin-top: 72px;
+  margin-top: 96px;
   border-radius: 5px;
   background: linear-gradient(
     90deg,
@@ -18,25 +22,49 @@
   );
 }
 
+/* Train car */
 .track__train {
   position: absolute;
-  top: -6px;
+  top: -26px;
   left: 0;
-  width: 22px;
-  height: 22px;
-  border: 5px solid var(--color-ink);
-  border-radius: 50%;
-  background-color: #ffffff;
-  animation: ride 6s ease-in-out infinite alternate;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 64px;
+  height: 28px;
+  padding: 0 8px;
+  border-radius: 6px 16px 16px 6px;
+  background-color: var(--color-ink);
+  animation: ride 12s ease-in-out infinite;
 }
 
+.track__window {
+  width: 11px;
+  height: 10px;
+  border-radius: 3px;
+  background-color: var(--color-pink-light);
+}
+
+/* Go right, turn around, come back */
 @keyframes ride {
-  from {
+  0% {
     left: 0;
+    transform: scaleX(1);
   }
 
-  to {
-    left: calc(100% - 22px);
+  49.9% {
+    left: calc(100% - 64px);
+    transform: scaleX(1);
+  }
+
+  50% {
+    left: calc(100% - 64px);
+    transform: scaleX(-1);
+  }
+
+  100% {
+    left: 0;
+    transform: scaleX(-1);
   }
 }
 </style>

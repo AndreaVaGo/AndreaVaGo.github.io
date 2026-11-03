@@ -66,5 +66,59 @@
         ]
       }
     ]
+  },
+  "projects": {
+    "eyebrow": "Projects",
+    "title": "Featured stops",
+    "othersTitle": "Other stops",
+    "featured": [
+      {
+        "name": "Acompáñame",
+        "line": "back",
+        "lineLabel": "Backend line · Final",
+        "status": "wip",
+        "statusLabel": "Under construction",
+        "description": "My final project: a marketplace to find caregivers who can stay with your loved ones, at the hospital or at home.",
+        "stack": ["Java 21", "Spring Boot", "Spring Security", "Vue", "MySQL", "Docker"],
+        "links": [
+          { "label": "Backend code", "url": "https://github.com/AndreaVaGo/acompaname-backend" },
+          { "label": "Frontend code", "url": "https://github.com/AndreaVaGo/acompaname-frontend" }
+        ]
+      },
+      {
+        "name": "Goxu",
+        "line": "back",
+        "lineLabel": "Backend line",
+        "status": "team",
+        "statusLabel": "Team project",
+        "description": "Restaurant app built as a team. My part: the admin and user dashboards, the product detail page and a simulated card payment.",
+        "stack": ["Spring Boot", "Vue", "MySQL"],
+        "links": [
+          { "label": "Backend code", "url": "https://github.com/AndreaVaGo/goxu-backend" },
+          { "label": "Frontend code", "url": "https://github.com/AndreaVaGo/goxu-frontend" }
+        ]
+      },
+      {
+        "name": "The Univers of Things",
+        "line": "front",
+        "lineLabel": "Frontend line",
+        "status": "live",
+        "statusLabel": "Live",
+        "description": "Single page app built as a team with Vue, published on GitHub Pages.",
+        "stack": ["Vue", "Pinia", "Vite"],
+        "links": [
+          { "label": "Visit site", "url": "https://andreavago.github.io/the-univers-of-things/" },
+          { "label": "Code", "url": "https://github.com/AndreaVaGo/the-univers-of-things" }
+        ]
+      }
+    ],
+    "others": [
+      "DuckStore",
+      "Movies REST API",
+      "Inside Out · My Diary",
+      "Kata RPG",
+      "House Builder",
+      "Any Company Global"
+    ]
   }
 }

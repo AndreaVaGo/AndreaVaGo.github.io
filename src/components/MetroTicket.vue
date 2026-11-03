@@ -78,7 +78,7 @@ const languageStore = useLanguageStore()
   font-weight: 600;
 }
 
-/* "Validated" stamp */
+/* "Validated" stamp, like real ink */
 .ticket__stamp {
   position: absolute;
   top: 96px;
@@ -93,6 +93,9 @@ const languageStore = useLanguageStore()
   font-weight: 900;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  opacity: 0.8;
+  mix-blend-mode: multiply;
+  pointer-events: none;
   transform: rotate(-14deg);
 }
 

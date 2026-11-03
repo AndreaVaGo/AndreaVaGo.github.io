@@ -2,6 +2,7 @@
 import TheHeader from '@/components/TheHeader.vue'
 import HeroSection from '@/components/HeroSection.vue'
 import MetroTrack from '@/components/MetroTrack.vue'
+import AboutSection from '@/components/AboutSection.vue'
 </script>
 
 <template>
@@ -14,6 +15,8 @@ import MetroTrack from '@/components/MetroTrack.vue'
       <HeroSection />
       <MetroTrack />
     </div>
+
+    <AboutSection />
   </main>
 </template>
 

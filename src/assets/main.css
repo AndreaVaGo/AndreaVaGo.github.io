@@ -1,0 +1,93 @@
+/* ===========================================================
+   🚇 DESIGN TOKENS · Metro theme
+   =========================================================== */
+:root {
+  /* Metro lines */
+  --line-front: #d6187e;
+  --line-data: #0e8c7a;
+  --line-back: #5a12c7;
+
+  /* Base colors */
+  --color-bg: #f4f1f8;
+  --color-surface: #ffffff;
+  --color-ink: #1c1027;
+  --color-ink-soft: #4a3d57;
+  --color-muted: #5b4e68;
+  --color-border: #e3d9ec;
+  --color-pink-light: #ff6ec7;
+  --color-on-dark: #f4f1f8;
+  --color-on-dark-soft: #dcd2e6;
+  --color-success: #3ddc97;
+
+  /* Typography */
+  --font-display: 'Archivo', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+
+  /* Shapes */
+  --radius-sm: 10px;
+  --radius-md: 20px;
+  --radius-pill: 999px;
+
+  /* Layout */
+  --page-padding: 72px;
+  --max-width: 1280px;
+}
+
+/* ===========================================================
+   🧹 BASE STYLES
+   =========================================================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-display);
+  background-color: var(--color-bg);
+  color: var(--color-ink);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+}
+
+/* Visible focus for keyboard users */
+:focus-visible {
+  outline: 3px solid var(--line-front);
+  outline-offset: 3px;
+}
+
+/* Smaller padding on phones */
+@media (max-width: 768px) {
+  :root {
+    --page-padding: 20px;
+  }
+}
+
+/* Respect users who prefer less motion */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

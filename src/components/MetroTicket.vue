@@ -1,11 +1,22 @@
 <script setup>
 import { useLanguageStore } from '@/stores/language'
 
+defineProps({
+  inserted: {
+    type: Boolean,
+    default: false,
+  },
+})
+
 const languageStore = useLanguageStore()
 </script>
 
 <template>
-  <article class="ticket" :aria-label="languageStore.texts.ticket.label">
+  <article
+    class="ticket"
+    :class="{ 'ticket--inserted': inserted }"
+    :aria-label="languageStore.texts.ticket.label"
+  >
     <header class="ticket__top">
       <span>{{ languageStore.texts.ticket.type }}</span>
       <span>{{ languageStore.texts.ticket.number }}</span>
@@ -40,6 +51,7 @@ const languageStore = useLanguageStore()
   color: #1e1424;
   font-family: var(--font-mono);
   box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+  opacity: 0;
 }
 
 /* Pink band on top */
@@ -93,7 +105,7 @@ const languageStore = useLanguageStore()
   font-weight: 900;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  opacity: 0.8;
+  opacity: 0;
   mix-blend-mode: multiply;
   pointer-events: none;
   transform: rotate(-14deg);
@@ -107,5 +119,49 @@ const languageStore = useLanguageStore()
   left: 0;
   height: 18px;
   background-color: #2b2230;
+}
+
+/* ===== Animations (only when the ticket is inserted) ===== */
+.ticket--inserted {
+  animation: insert 1.6s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+.ticket--inserted .ticket__stamp {
+  animation: stamp 2.2s ease-out both;
+}
+
+@keyframes insert {
+  0% {
+    opacity: 0;
+    transform: translateX(-60px) rotate(-4deg);
+  }
+
+  30% {
+    opacity: 1;
+  }
+
+  55%,
+  100% {
+    opacity: 1;
+    transform: translateX(0) rotate(-2deg);
+  }
+}
+
+@keyframes stamp {
+  0%,
+  60% {
+    opacity: 0;
+    transform: scale(1.6) rotate(-14deg);
+  }
+
+  75% {
+    opacity: 0.8;
+    transform: scale(0.95) rotate(-14deg);
+  }
+
+  100% {
+    opacity: 0.8;
+    transform: scale(1) rotate(-14deg);
+  }
 }
 </style>
